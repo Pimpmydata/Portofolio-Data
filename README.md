@@ -6,7 +6,9 @@ KPI sur Power BI :
    - Réalisations personnelles : Création des requêtes et graphiques de la page Accueil et Finance. Aide à la création de la présentation.
 
 https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Accueil.png
+
 https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Finance%201.png
+
 https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Finance%202.png
 
 Tableau de bord et système de recommandation :
