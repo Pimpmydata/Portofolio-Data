@@ -6,9 +6,7 @@ KPI sur Power BI :
    - Réalisations personnelles : Création des requêtes et graphiques de la page Accueil et Finance. Aide à la création de la présentation.
 
 https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Accueil.png
-
 https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Finance%201.png
-
 https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Finance%202.png
 
 Tableau de bord et système de recommandation :
@@ -18,3 +16,6 @@ Tableau de bord et système de recommandation :
    - Réalisations personnelles : Création et mise à jour du tableau de bord de suivi projet (Trello), web scrapping des données manquantes,
                                  proposition d'un système de recommandation basé sur le machine learning et le modèle KNN. Création de
                                  graphiques sur le box-office des films et les sorties de la semaines.
+     
+https://github.com/Pimpmydata/Portofolio-Data/blob/main/ML_Projet_2_BGA.ipynb   
+https://github.com/Pimpmydata/Portofolio-Data/blob/main/Data_Viz_Projet2.ipynb
