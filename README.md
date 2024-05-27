@@ -9,7 +9,7 @@ KPI sur Power BI :
 
 [Page suivi CA](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Finance%202.png)
 
-https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Finance%202.png
+[Page suivi client](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Finance%202.png)
 
 Tableau de bord et système de recommandation :
 
