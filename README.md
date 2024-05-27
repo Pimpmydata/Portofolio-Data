@@ -5,9 +5,9 @@ KPI sur Power BI :
    - Groupe : En collaboration avec Laury Barbati (linkedin.com/in/laury-barbati-), Quentin Bernardin (linkedin.com/in/quentin-bernardin, https://github.com/Phebos) et Cédric Petitcollin (linkedin.com/in/cédric-petitcollin-60b8a04b)
    - Réalisations personnelles : Création des requêtes et graphiques de la page Accueil et Finance. Aide à la création de la présentation.
 
-[https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Accueil.png](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Accueil.png)
+[Page d'accueil](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Accueil.png)
 
-https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Finance%201.png
+[Page suivi CA](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Finance%202.png)
 
 https://github.com/Pimpmydata/Portofolio-Data/blob/main/Page%20Finance%202.png
 
