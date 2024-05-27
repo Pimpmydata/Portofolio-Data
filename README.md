@@ -20,4 +20,5 @@ Tableau de bord et système de recommandation :
                                  graphiques sur le box-office des films et les sorties de la semaines.
      
 [Système de recommandation - KNN](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/ML_Projet_2_BGA.ipynb)
+
 [Graphiques](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/Data_Viz_Projet2.ipynb)
