@@ -14,7 +14,7 @@ KPI sur Power BI :
 Tableau de bord et système de recommandation :
 
    - Sujet : Création d'un tableau de bord pour le gérant d'un cinéma, et un système de recommandation pour les clients du cinéma.
-   - Groupe : En collaboration avec Marie Jamet, Jarold Martinez, et Bruno Sousa.
+   - Groupe : En collaboration avec Marie Jamet (linkedin.com/in/marie-jamet), Jarold Martinez (linkedin.com/in/jarold-martinez), et Bruno Sousa (linkedin.com/in/brunojoaosousa).
    - Réalisations personnelles : Création et mise à jour du tableau de bord de suivi projet (Trello), web scrapping des données manquantes,
                                  proposition d'un système de recommandation basé sur le machine learning et le modèle KNN. Création de
                                  graphiques sur le box-office des films et les sorties de la semaines.
