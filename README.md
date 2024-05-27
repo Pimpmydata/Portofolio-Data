@@ -19,5 +19,5 @@ Tableau de bord et système de recommandation :
                                  proposition d'un système de recommandation basé sur le machine learning et le modèle KNN. Création de
                                  graphiques sur le box-office des films et les sorties de la semaines.
      
-[Système de recommandation - KNN](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/Data_Viz_Projet2.ipynb)
-https://github.com/Pimpmydata/Portofolio-Data/blob/main/Data_Viz_Projet2.ipynb
+[Système de recommandation - KNN](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/ML_Projet_2_BGA.ipynb)
+[Graphiques](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/Data_Viz_Projet2.ipynb)
