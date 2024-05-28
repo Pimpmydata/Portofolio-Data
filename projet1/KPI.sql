@@ -6,8 +6,8 @@ JOIN orderdetails od on od.`orderNumber`=o.`orderNumber`
 JOIN employees e on e.`employeeNumber`=c.`salesRepEmployeeNumber`
 JOIN offices as offi on offi.`officeCode`=e.`officeCode`
 WHERE o.orderDate >=  DATE_SUB(CURRENT_DATE(), INTERVAL 2 MONTH)
-group by offi.country
-order by Total_CA DESC;
+GROUP BY offi.country
+ORDER BY Total_CA DESC;
 
 --CA des deux derniers mois vs N-1 sur la même période
 SELECT
@@ -63,10 +63,10 @@ ORDER BY nb_clients DESC, region_vente;
 --Origine des clients par pays, agence
 SELECT  c.country as pays_clients, offi.city as agence, count(c.customerNumber) as nb_clients
 FROM customers c
-join employees e on e.`employeeNumber`=c.`salesRepEmployeeNumber`
-join offices as offi on offi.`officeCode`=e.`officeCode`
-group by c.country, agence
-order by nb_clients DESC, agence;
+JOIN employees e on e.`employeeNumber`=c.`salesRepEmployeeNumber`
+JOIN offices as offi on offi.`officeCode`=e.`officeCode`
+GROUP BY c.country, agence
+ORDER BY nb_clients DESC, agence;
 
 --CA par région, année
 SELECT SUM(`quantityOrdered`*`priceEach`) as Total_CA, o.territory as region, YEAR(orders.orderDate) as annee
@@ -90,7 +90,7 @@ GROUP BY YEAR(orders.orderDate), agence
 ORDER BY annee DESC, Total_CA DESC;
 
 -- 10 premiers clients en dépassement de limite de crédit v1
-select p.paymentDate, p.amount as total_paiements, c.customerName, sum(o2.priceEach*o2.quantityOrdered) as amount_ordered,
+SELECT p.paymentDate, p.amount as total_paiements, c.customerName, sum(o2.priceEach*o2.quantityOrdered) as amount_ordered,
 (sum(o2.priceEach*o2.quantityOrdered)-p.amount) as credit_client, c.creditLimit,
 CASE WHEN (sum(o2.priceEach*o2.quantityOrdered)-p.amount) > creditLimit THEN "Limite dépassée"
 	 WHEN (sum(o2.priceEach*o2.quantityOrdered)-p.amount) <=  creditLimit THEN "Ok"
@@ -120,14 +120,14 @@ WITH TotalCommands AS (
 	SELECT c.creditLimit, c.customerName, SUBSTRING(c.customerName, 0, 10) as cust_shortname
 	FROM customers c)
 SELECT COALESCE(TotalCommands.customerName, TotalPayments.customerName) AS customerName,
-TotalCommands.cust_shortname18,
-SUBSTRING(TotalCommands.cust_shortname18, 1, 10) as cust_shortname10,
-COALESCE(TotalCommands.total_cmde, 0) AS total_cmde,
-COALESCE(TotalPayments.total_paiement, 0) AS total_paiement,
-COALESCE (TotalCommands.total_cmde - TotalPayments.total_paiement, 0) as encours,
-creditlimit.creditLimit,
-COALESCE ((TotalCommands.total_cmde - TotalPayments.total_paiement)/creditlimit.creditLimit*100, 0) as taux_utl_limite_val
-CONCAT(COALESCE ((TotalCommands.total_cmde - TotalPayments.total_paiement)/creditlimit.creditLimit*100, 0),"%") as taux_utl_limite
+       TotalCommands.cust_shortname18,
+       SUBSTRING(TotalCommands.cust_shortname18, 1, 10) as cust_shortname10,
+       COALESCE(TotalCommands.total_cmde, 0) AS total_cmde,
+       COALESCE(TotalPayments.total_paiement, 0) AS total_paiement,
+       COALESCE (TotalCommands.total_cmde - TotalPayments.total_paiement, 0) as encours,
+       creditlimit.creditLimit,
+       COALESCE ((TotalCommands.total_cmde - TotalPayments.total_paiement)/creditlimit.creditLimit*100, 0) as taux_utl_limite_val,
+       CONCAT(COALESCE ((TotalCommands.total_cmde - TotalPayments.total_paiement)/creditlimit.creditLimit*100, 0),"%") as taux_utl_limite
 FROM TotalCommands
 LEFT JOIN TotalPayments ON TotalCommands.customerName = TotalPayments.customerName
 LEFT JOIN creditlimit ON creditlimit.customerName = TotalCommands.customerName;
