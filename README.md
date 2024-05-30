@@ -1,6 +1,6 @@
 # Portofolio-Data
 
-KPI sur Power BI : 
+Projet 1 - KPI sur Power BI : 
    - Sujet : Création d'un tableau de bord de suivi d'activité pour le directeur d'une entreprise de vente de miniatures dans le cadre de la formation Data Analyst.
    - Groupe : En collaboration avec Laury Barbati (linkedin.com/in/laury-barbati-), Quentin Bernardin (linkedin.com/in/quentin-bernardin, https://github.com/Phebos) et Cédric Petitcollin (linkedin.com/in/cédric-petitcollin-60b8a04b)
    - Réalisations personnelles : Création des requêtes et graphiques de la page Accueil et Finance. Aide à la création de la présentation.
@@ -11,7 +11,7 @@ KPI sur Power BI :
 
 [Page suivi client](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Finance%202.png)
 
-Tableau de bord et système de recommandation :
+Projet 2 - Tableau de bord et système de recommandation :
 
    - Sujet : Création d'un tableau de bord pour le gérant d'un cinéma, et un système de recommandation pour les clients du cinéma.
    - Groupe : En collaboration avec Marie Jamet (linkedin.com/in/marie-jamet), Jarold Martinez (linkedin.com/in/jarold-martinez), et Bruno Sousa (linkedin.com/in/brunojoaosousa).
