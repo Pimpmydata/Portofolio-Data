@@ -22,3 +22,18 @@ Projet 2 - Tableau de bord et système de recommandation :
 [Système de recommandation - KNN](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/ML_Projet_2_BGA.ipynb)
 
 [Graphiques](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/Data_Viz_Projet2.ipynb)
+
+Projet 3 - Maintenance prédictive et automatisation d'extraction de donnée :
+
+   - Sujet : Création d'un modèle de machine learning qui prédise l'état des composants aéronautiques.
+   - Il fallait automatiser l'import des données journalières des avions et mettre à jour les fichiers composants correspondant.
+   - Groupe : En collaboration avec Sabine Laturnus (linkedin.com/in/sabinelaturnus/), Bruno Sousa -(linkedin.com/in/brunojoaosousa) et Florent Cramette (https://www.linkedin.com/in/florentcramette/)
+
+   - Réalisations personnelles : Création des notebooks permettant la mise à jour des composants à partir des données extraites par Florent,
+                                 Création du modèle de machine learning permetant de prédire l'état du voyant (KNN Classifier)
+     
+[Notebook mise à jour des composants](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet3/compo_actualise.ipynb)
+
+[EDA sur les composants](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet3/EDA%20skyanalitics.ipynb)
+
+[Modèle de machine learning](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet3/ML_P3_update.ipynb)
