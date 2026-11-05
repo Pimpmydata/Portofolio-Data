@@ -5,11 +5,11 @@ Projet 1 - KPI sur Power BI :
    - Groupe : En collaboration avec Laury Barbati (linkedin.com/in/laury-barbati-), Quentin Bernardin (linkedin.com/in/quentin-bernardin, https://github.com/Phebos) et Cédric Petitcollin (linkedin.com/in/cédric-petitcollin-60b8a04b)
    - Réalisations personnelles : Création des requêtes et graphiques de la page Accueil et Finance. Aide à la création de la présentation.
 
-[Page d'accueil](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Accueil.png)
+      [Page d'accueil](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Accueil.png)
 
-[Page suivi CA](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Finance%202.png)
+      [Page suivi CA](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Finance%202.png)
 
-[Page suivi client](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Finance%202.png)
+      [Page suivi client](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet1/Page%20Finance%202.png)
 
 Projet 2 - Tableau de bord et système de recommandation :
 
@@ -19,9 +19,9 @@ Projet 2 - Tableau de bord et système de recommandation :
                                  proposition d'un système de recommandation basé sur le machine learning et le modèle KNN. Création de
                                  graphiques sur le box-office des films et les sorties de la semaines.
      
-[Système de recommandation - KNN](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/ML_Projet_2_BGA.ipynb)
+      [Système de recommandation - KNN](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/ML_Projet_2_BGA.ipynb)
 
-[Graphiques](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/Data_Viz_Projet2.ipynb)
+      [Graphiques](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet2/Data_Viz_Projet2.ipynb)
 
 Projet 3 - Maintenance prédictive et automatisation d'extraction de donnée :
 
@@ -32,8 +32,8 @@ Projet 3 - Maintenance prédictive et automatisation d'extraction de donnée :
    - Réalisations personnelles : Création des notebooks permettant la mise à jour des composants à partir des données extraites par Florent,
                                  Création du modèle de machine learning permetant de prédire l'état du voyant (KNN Classifier)
      
-[Notebook mise à jour des composants](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet3/compo_actualise.ipynb)
+      [Notebook mise à jour des composants](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet3/compo_actualise.ipynb)
 
-[EDA sur les composants](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet3/EDA%20skyanalitics.ipynb)
+      [EDA sur les composants](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet3/EDA%20skyanalitics.ipynb)
 
-[Modèle de machine learning](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet3/ML_P3_update.ipynb)
+      [Modèle de machine learning](https://github.com/Pimpmydata/Portofolio-Data/blob/main/projet3/ML_P3_update.ipynb)
