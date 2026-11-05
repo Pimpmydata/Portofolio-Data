@@ -214,4 +214,10 @@ Le résultat final doit démontrer trois compétences : **savoir poser les bonne
 
 Commence par inspecter le dataset joint, puis réalise directement l'analyse et construis les livrables demandés.
 
+Réponse 2 : 
+
+coffee_war.py
+
+
+
 
