@@ -25,8 +25,7 @@ Mettre en évidence la **structure concurrentielle** du marché : combien d'acte
 
 ```bash
 # 1. Cloner le dépôt
-git clone https://github.com/<ton-user>/coffee-wars-indonesia.git
-cd coffee-wars-indonesia
+git clone https://github.com/Pimpmydata/Portofolio-Data/tree/ae26435c603f720fa5971f0cca62483592bf8296/Data%20%26%20IA
 
 # 2. Créer un environnement virtuel
 python -m venv .venv
